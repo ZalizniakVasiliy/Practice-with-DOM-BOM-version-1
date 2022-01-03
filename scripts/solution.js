@@ -22,4 +22,14 @@ const arrOfValuesLi = Array.from(
   (li) => li.textContent
 );
 
+const arrOfValuesLi1 = [];
+const arrOfValuesLi2 = [];
+
+for (li of listItems) {
+  arrOfValuesLi1.push(li.innerHTML);
+  arrOfValuesLi2.push(li.textContent);
+}
+
 console.log(arrOfValuesLi);
+console.log(arrOfValuesLi1);
+console.log(arrOfValuesLi2);
